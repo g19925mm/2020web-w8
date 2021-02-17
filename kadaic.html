@@ -19,7 +19,7 @@
     function initMap() {
       var myOptions = {
         zoom: 16,
-        center: {lat: 34.70037380018573, lng: 137.73565827744787},
+        center: {lat: 35.63060272972885, lng: 139.79430825767295},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         disableDefaultUI: true,
         // Step 4. Customize displayed controls
@@ -34,14 +34,14 @@
       var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 34.70037380018573, lng: 137.73565827744787},
+        position: {lat: 35.63060272972885, lng: 139.79430825767295},
         icon: iconBase + 'flag_maps.png',
         map: map
       });
 
       // Step 3. Add info window
 
-      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">場所</h2><p>理由</p></div>';
+      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">浜松東税務署</h2><p></p></div>';
 
       var infowindow = new google.maps.InfoWindow({
         content: contentString
